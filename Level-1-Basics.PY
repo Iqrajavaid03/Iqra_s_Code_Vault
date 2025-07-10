@@ -23,6 +23,12 @@ for i in range(2, 21, 2):
 #Print numbers from 10 to 1 in reverse order.
 for i in range(10, 0, -1):
     print(i)
+
+#Given a list of fruits, print each fruit on a new line.
+fruits=["Apple","Berry","Banana","Kiwi"]
+for fruit in fruits:
+    print(fruit)
+
  
 
 
