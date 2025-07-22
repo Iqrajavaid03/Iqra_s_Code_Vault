@@ -29,7 +29,55 @@ fruits=["Apple","Berry","Banana","Kiwi"]
 for fruit in fruits:
     print(fruit)
 
- 
+ #For Loop with Else:
+for i in range (5):
+    print(i)
+    if i==4:
+        break
+else:
+    print("Sorry no i")           
+
+#Searching with break + else:
+nums = [2, 4, 6, 8, 10]
+
+for num in nums:
+    if num == 5:
+        print("Found 5!")
+        break
+else:
+    print("5 is not in the list.")
+
+#With break:
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print("Loop completed!")
+
+#Prime Number Check:
+num = 17
+for i in range(2, num):
+    if num % i == 0:
+        print(f"{num} is not prime.")
+        break
+else:
+    print(f"{num} is prime.")
+
+#Search for a vowel
+vowel=["a","e","i","o","u"]
+alph=input("Enter alphabet to check: ").lower()
+for i in vowel:
+    if alph == i:
+        print("This alphabet is vowel")
+        break
+else:
+    print("This is not vowel")
+
+
+
+
+
 
 
 
