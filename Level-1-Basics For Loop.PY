@@ -74,6 +74,16 @@ for i in vowel:
 else:
     print("This is not vowel")
 
+#Duplicate detector using for-else:
+nums = input("Enter five numbers separated by space: ").split()
+
+for num in nums:
+    if nums.count(num) > 1:
+        print("Ew... Duplicate found!")
+        break
+else:
+    print("All of these are unique. You're one of a kind ")
+
 
 
 
