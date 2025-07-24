@@ -1,23 +1,23 @@
+#1
 count = 1
-
 while count <= 5:
     print("Count is:", count)
     count += 1
 
-#Count to 10:
+#2 Count to 10:
 i=1
 while i<=10:
     print(i)
     i=i+1
 
-#Print numbers from 5 down to 1 using a while loop, then print "Blast off".
+#3 Print numbers from 5 down to 1 using a while loop, then print "Blast off".
 i=5
 while i>0:
     print(i)
     i=i-1
 print("Blast off")
 
-#Sum Until 0
+#4 Sum Until 0
 Task:
 Ask the user to keep entering numbers.
 Keep adding them up.
@@ -31,7 +31,7 @@ while num != 0:
     num = int(input("Enter a number: "))  
 print("Total sum:", total)
 
-#Sassy Filter Bot
+#5 Sassy Filter Bot
 name=input("Enter your username:").lower()
 while name!="admin":
     print("Invalid username.")
@@ -40,14 +40,14 @@ if name=="admin":
     print("Username accepted, welcome to the chaos")
 
 
-#Enter PIN:
+#6 Enter PIN:
 pin = int(input('Enter your PIN: '))
 while pin != 1234:
   pin = int(input('Incorrect PIN. Enter your PIN again: '))
 if pin == 1234:
   print('PIN accepted!')
 
-#Even Number Bouncer
+#7 Even Number Bouncer
 Ask the user for a number.
 Keep asking until they give you an even number.
 Then print: "Finally! Even vibes only."
@@ -58,7 +58,7 @@ while num % 2 != 0:
     num = int(input("Enter your number again: "))
 print("Number is Even!")
 
-#Sum of First N Numbers
+#8 Sum of First N Numbers
 Ask the user for a number n.
 Use a while loop to calculate the sum from 1 to n:
 
@@ -70,7 +70,7 @@ while i<=num:
     i=i+1
 print(total)
 
-#Repeat Until Goodbye
+#9 Repeat Until Goodbye
 Keep asking the user for input and repeat it back.
 If they type "bye", exit the loop with "Okay fine... bye then."
 
@@ -81,7 +81,7 @@ while ask!="bye":
 
 print("Okay fine... bye then!")
 
-Money Saver
+#10 Money Saver
 Let’s pretend you’re saving money.
 Ask user how much money they want to add.
 Keep going until total savings reach 1000 or more.
