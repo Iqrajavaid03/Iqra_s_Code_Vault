@@ -1,35 +1,35 @@
-#printing colors
+#1 printing colors
 colors=["red","green","blue"]
 for color in colors:
     print(color,end=" ")
 
-#Print numbers from 1 to 10.
+#2 Print numbers from 1 to 10.
 for i in range(10):
     print(i+1)
 
-#Print the word “Hello World” 5 times.
+#3 Print the word “Hello World” 5 times.
 word="Hello World"
 for i in range(5):
     print(word)
 
-#Print characters of the word "Python" one by one.
+#4 Print characters of the word "Python" one by one.
 for i in "Python":
     print(i)
 
-#Print all even numbers from 1 to 20.
+#5 Print all even numbers from 1 to 20.
 for i in range(2, 21, 2):
     print(i)
 
-#Print numbers from 10 to 1 in reverse order.
+#6 Print numbers from 10 to 1 in reverse order.
 for i in range(10, 0, -1):
     print(i)
 
-#Given a list of fruits, print each fruit on a new line.
+#7 Given a list of fruits, print each fruit on a new line.
 fruits=["Apple","Berry","Banana","Kiwi"]
 for fruit in fruits:
     print(fruit)
 
- #For Loop with Else:
+ #8 For Loop with Else:
 for i in range (5):
     print(i)
     if i==4:
@@ -37,9 +37,8 @@ for i in range (5):
 else:
     print("Sorry no i")           
 
-#Searching with break + else:
+#9 Searching with break + else:
 nums = [2, 4, 6, 8, 10]
-
 for num in nums:
     if num == 5:
         print("Found 5!")
@@ -47,7 +46,7 @@ for num in nums:
 else:
     print("5 is not in the list.")
 
-#With break:
+#10 With break:
 for i in range(5):
     print(i)
     if i == 3:
@@ -55,7 +54,7 @@ for i in range(5):
 else:
     print("Loop completed!")
 
-#Prime Number Check:
+#11 Prime Number Check:
 num = 17
 for i in range(2, num):
     if num % i == 0:
@@ -64,7 +63,7 @@ for i in range(2, num):
 else:
     print(f"{num} is prime.")
 
-#Search for a vowel
+#12 Search for a vowel
 vowel=["a","e","i","o","u"]
 alph=input("Enter alphabet to check: ").lower()
 for i in vowel:
@@ -74,7 +73,7 @@ for i in vowel:
 else:
     print("This is not vowel")
 
-#Duplicate detector using for-else:
+#13 Duplicate detector using for-else:
 nums = input("Enter five numbers separated by space: ").split()
 
 for num in nums:
