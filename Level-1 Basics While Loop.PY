@@ -58,6 +58,43 @@ while num % 2 != 0:
     num = int(input("Enter your number again: "))
 print("Number is Even!")
 
+#Sum of First N Numbers
+Ask the user for a number n.
+Use a while loop to calculate the sum from 1 to n:
+
+num=int(input("Enter your number:"))
+total=0
+i=1
+while i<=num:
+    total+=i
+    i=i+1
+print(total)
+
+#Repeat Until Goodbye
+Keep asking the user for input and repeat it back.
+If they type "bye", exit the loop with "Okay fine... bye then."
+
+ask=input("Enter your input:").lower()
+while ask!="bye":
+    print(ask)
+    ask=input("Enter your input again!")
+
+print("Okay fine... bye then!")
+
+Money Saver
+Let’s pretend you’re saving money.
+Ask user how much money they want to add.
+Keep going until total savings reach 1000 or more.
+Then print: "Goal reached! You're rich... ish":
+Solution:
+
+ask=int(input("Enter your amount:"))
+total=0
+while total<1000:
+    total+=ask
+    print("You have", total, "in your bank")
+    ask = int(input("Enter a number only (no text!): "))
+print("Goal reached! You're rich... ish")
 
 
 
